@@ -1,7 +1,7 @@
 package Attractions;
 
 import Packages.ISecurity;
-import sun.reflect.generics.visitor.Visitor;
+import ThemePark.Visitor;
 
 public class RollerCoaster extends Attraction implements ISecurity {
 
@@ -10,6 +10,8 @@ public class RollerCoaster extends Attraction implements ISecurity {
     }
 
     public boolean isAllowed(Visitor visitor) {
-        return false;
+        if (visitor.getHeight() > 145 && visitor.getAge() >12){
+            return true;
+        } else { return false; }
     }
 }

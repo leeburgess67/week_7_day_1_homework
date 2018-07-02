@@ -1,7 +1,7 @@
 package Stalls;
 
 import Packages.ISecurity;
-import sun.reflect.generics.visitor.Visitor;
+import ThemePark.Visitor;
 
 public class Tobacco extends Stall implements ISecurity {
 
@@ -11,11 +11,14 @@ public class Tobacco extends Stall implements ISecurity {
 
 
     public boolean isAllowed(Visitor visitor) {
-        return false;
+        if (visitor.getAge() > 18) {
+            return true; } else { return false;}
     }
 
-    @Override
     public int getRating() {
-        return 0;
+        return this.getRating();
     }
+
+
 }
+

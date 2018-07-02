@@ -17,6 +17,8 @@ public abstract class Attraction implements IReviewed {
     }
 
     public int getRating() {return this.rating; }
+
+
 }
 
 
