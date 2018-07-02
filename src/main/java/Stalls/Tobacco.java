@@ -13,4 +13,9 @@ public class Tobacco extends Stall implements ISecurity {
     public boolean isAllowed(Visitor visitor) {
         return false;
     }
+
+    @Override
+    public int getRating() {
+        return 0;
+    }
 }
