@@ -15,9 +15,6 @@ public class Tobacco extends Stall implements ISecurity {
             return true; } else { return false;}
     }
 
-    public int getRating() {
-        return this.getRating();
-    }
 
 
 }

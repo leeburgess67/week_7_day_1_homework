@@ -26,7 +26,7 @@ public abstract class Stall implements IReviewed {
 
     public int getParkingSpot() { return this.parkingSpot;}
 
-    public int getRating() {return  this.rating }
+    public int getRating() {return  this.rating; }
 
 
 
