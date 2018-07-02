@@ -1,9 +1,10 @@
 package Attractions;
 
 import Packages.ISecurity;
+import Packages.ITicketed;
 import ThemePark.Visitor;
 
-public class RollerCoaster extends Attraction implements ISecurity {
+public class RollerCoaster extends Attraction implements ISecurity, ITicketed {
 
     public RollerCoaster(String name, int rating) {
         super(name, rating);
@@ -14,4 +15,5 @@ public class RollerCoaster extends Attraction implements ISecurity {
             return true;
         } else { return false; }
     }
+
 }
