@@ -1,6 +1,8 @@
 package Stalls;
 
-public abstract class Stall {
+import Packages.IReviewed;
+
+public abstract class Stall implements IReviewed {
 
     private String name;
     private String owner;
