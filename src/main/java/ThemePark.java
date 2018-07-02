@@ -1,4 +1,4 @@
-public class ThemePark {
+public abstract class ThemePark {
 
     private int rating;
 

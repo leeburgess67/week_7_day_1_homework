@@ -1,6 +1,6 @@
+import Attractions.Attraction;
 import org.junit.Before;
 import org.junit.Test;
-import org.w3c.dom.Attr;
 
 import static junit.framework.TestCase.assertEquals;
 
