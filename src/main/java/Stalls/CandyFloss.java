@@ -2,12 +2,8 @@ package Stalls;
 
 public class CandyFloss extends Stall {
 
-    public CandyFloss(String name, String owner, int parkingSpot) {
-        super(name, owner, parkingSpot);
+    public CandyFloss(String name, String owner, int parkingSpot, int rating) {
+        super(name, owner, parkingSpot, rating);
     }
 
-    @Override
-    public int getRating() {
-        return 0;
-    }
 }
